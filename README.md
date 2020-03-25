@@ -1,2 +1,4 @@
 # textme
-![]Superphone Landing Pg Vid.gif
+
+![UGM Digital]
+(Superphone Landing Pg Vid.gif)
