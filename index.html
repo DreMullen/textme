@@ -16,7 +16,13 @@
     obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
   }
 </script>
-	<style> #my-vid { /* Fixed in background */ position: fixed; top: 0; left: 0; z-index: -999; /* Spans full screen */ min-height: 100%; min-width: 100%; } /* [DOES NOT MATTER] */ html, body { font-family: arial, sans-serif; font-size: 2em; color: #f00; } </style>
+	<style> #myVideo {
+position: fixed;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+} </style>
     <!--This is the favicon for the browser tab-->
     <link rel="shortcut icon" href="https://app.superphone.io/favicon.ico" type="image/x-icon">
     
@@ -222,7 +228,7 @@
                         <div class="buto">Something went wrong. Please check your mobile and try again.</div>
                     </div>
 <div>
-	    <!-- [BACKGROUND VIDEO] --> <video id="my-vid" loop muted autoplay> <source src="Superphone%20Landing%20Pg%20Vid.gif">
+	    <!-- [BACKGROUND VIDEO] --> <video autoplay muted loop id="myVideo"> <source src="Superphone%20Landing%20Pg%20Vid.gif" type="video/gif"></video>
 			
                 </div>
             </form>
