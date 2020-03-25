@@ -1,2 +1,2 @@
 # textme
-! []Superphone Landing Pg Vid.gif
+![]Superphone Landing Pg Vid.gif
