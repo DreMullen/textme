@@ -11,7 +11,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.0.7/parsley.js"></script>
     <script src="https://superphone.io/f/assets/javascripts/intlTelInput.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    
+    <script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+  }
+</script>
+	
     <!--This is the favicon for the browser tab-->
     <link rel="shortcut icon" href="https://app.superphone.io/favicon.ico" type="image/x-icon">
     
@@ -218,7 +223,7 @@
                         <div class="buto">Something went wrong. Please check your mobile and try again.</div>
                     </div>
 <div>
-	    <center><iframe width="425" height="264" src="https://www.youtube.com/embed/NWZbWA1gMcs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></div>
+	    <center><iframe src="https://www.youtube.com/embed/NWZbWA1gMcs" frameborder="0" scrolling="no" onload="resizeIframe(this)" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></div>
 			
                 </div>
             </form>
